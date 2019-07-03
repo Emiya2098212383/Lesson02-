@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 
 # Filename : 01-string.py
-# author by : Steven Lu
+# author by : Emiya
 
 # 目的:
 # 写第一套程序
