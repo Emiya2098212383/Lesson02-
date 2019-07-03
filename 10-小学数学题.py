@@ -59,15 +59,15 @@ for row in range(1,21):
 
         #当op=4 时是乘法
         if op == 3:
-            line1 = line1 + "%d * %d = \t" % (a, b)
+            line1 = line1 + "%d × %d = \t" % (a, b)
             anwser = a * b
-            line2 = line2 + "%d * %d = %d \t\t\t" % (a, b, anwser)
+            line2 = line2 + "%d × %d = %d \t\t\t" % (a, b, anwser)
 
         #当op=4 时是除法
         if op == 4:
-            line1 = line1 + "%d / %d = \t" % (a, b)
+            line1 = line1 + "%d ÷ %d = \t" % (a, b)
             anwser = a / b
-            line2 = line2 + "%d / %d = %0.3f \t\t\t" % (a, b, anwser)
+            line2 = line2 + "%d ÷ %d = %0.3f \t\t\t" % (a, b, anwser)
 
         # print('现在打印第{0}行-第{1}列-第{2}道数学题'.format(row,col,count))
     text2write = line1 + "\n"
